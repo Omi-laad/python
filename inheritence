@@ -1,0 +1,35 @@
+/*EXPERIMENT NUMBER 2
+
+AIM: TO WRITE A PROGRAM IN C++ TO IMPLEMENT INHERITANCE
+*/
+#include<iostream.h
+#include<conio.h>
+class animal
+{
+public:
+void eat()
+{
+cout<<"EATING"<<endl;
+}
+};
+class dog:public animal
+{
+public:
+void bark()
+{
+cout<<"BARKING"<<endl;
+}
+};
+int main(void)
+{
+clrscr();
+dog d1;
+d1.eat();
+d1.bark();
+getch();
+return 0;
+}
+/**
+ 
+EATING
+BARKING*/
